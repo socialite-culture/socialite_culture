@@ -1,65 +1,209 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1.0">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>Socialite_Culture | Official</title>
-<meta name="description" content="Official website of Socialite_Culture">
+
 <style>
-*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
-html{scroll-behavior:smooth}
-body{
-color:#fff;
-background:linear-gradient(-45deg,#090909,#121212,#0a3d62,#0f2027);
-background-size:400% 400%;
-animation:bg 15s ease infinite;
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,sans-serif;
 }
-@keyframes bg{0%{background-position:0 50%}50%{background-position:100% 50%}100%{background-position:0 50%}}
-nav{position:fixed;top:0;width:100%;padding:15px 25px;background:rgba(0,0,0,.45);backdrop-filter:blur(10px);display:flex;justify-content:space-between}
-nav a{color:#fff;text-decoration:none;margin-left:15px}
-header{min-height:100vh;display:flex;align-items:center;justify-content:center;text-align:center;padding:20px}
-.card{background:rgba(255,255,255,.08);padding:30px;border-radius:18px;max-width:800px;backdrop-filter:blur(10px)}
-h1{font-size:52px;color:#20d6ff}
-.btn{display:inline-block;margin-top:20px;padding:14px 30px;background:#20d6ff;color:#000;text-decoration:none;border-radius:30px;font-weight:bold}
-section{padding:80px 20px;text-align:center}
-.social a{display:inline-block;margin:10px;padding:14px 24px;background:#222;color:#fff;text-decoration:none;border-radius:10px}
-iframe{width:90%;max-width:800px;height:450px;border:none;border-radius:12px}
-footer{text-align:center;padding:30px;color:#ccc}
+
+body{
+min-height:100vh;
+background:linear-gradient(-45deg,#000000,#0f2027,#203a43,#2c5364);
+background-size:400% 400%;
+animation:gradient 12s ease infinite;
+color:white;
+}
+
+@keyframes gradient{
+0%{background-position:0% 50%;}
+50%{background-position:100% 50%;}
+100%{background-position:0% 50%;}
+}
+
+nav{
+position:fixed;
+width:100%;
+top:0;
+display:flex;
+justify-content:space-between;
+padding:18px 30px;
+background:rgba(0,0,0,.35);
+backdrop-filter:blur(12px);
+}
+
+nav a{
+color:white;
+text-decoration:none;
+margin-left:20px;
+}
+
+header{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+padding:20px;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+padding:40px;
+border-radius:20px;
+backdrop-filter:blur(15px);
+max-width:750px;
+box-shadow:0 0 30px rgba(0,212,255,.25);
+}
+
+h1{
+font-size:60px;
+color:#00d4ff;
+margin-bottom:15px;
+}
+
+p{
+font-size:20px;
+line-height:1.7;
+}
+
+.btn{
+display:inline-block;
+margin-top:25px;
+padding:15px 35px;
+background:#00d4ff;
+color:black;
+text-decoration:none;
+border-radius:30px;
+font-weight:bold;
+transition:.3s;
+}
+
+.btn:hover{
+transform:scale(1.05);
+}
+
+section{
+padding:80px 20px;
+text-align:center;
+}
+
+.social{
+display:flex;
+justify-content:center;
+gap:20px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.social a{
+padding:15px 25px;
+background:rgba(255,255,255,.08);
+color:white;
+text-decoration:none;
+border-radius:12px;
+transition:.3s;
+}
+
+.social a:hover{
+background:#00d4ff;
+color:black;
+transform:translateY(-5px);
+}
+
+footer{
+padding:30px;
+text-align:center;
+color:#bbb;
+}
+
 </style>
+
 </head>
+
 <body>
-<nav><strong>Socialite_Culture</strong><div><a href="#about">About</a><a href="#youtube">YouTube</a><a href="#social">Social</a></div></nav>
+
+<nav>
+
+<strong>Socialite_Culture</strong>
+
+<div>
+<a href="#about">About</a>
+<a href="#social">Social</a>
+</div>
+
+</nav>
+
 <header>
+
 <div class="card">
+
 <h1>SOCIALITE_CULTURE</h1>
-<p style="margin:20px 0;font-size:20px">Lifestyle • Entertainment • Creativity • Culture</p>
-<a class="btn" href="#social">Connect With Me</a>
+
+<p>
+Lifestyle • Entertainment • Creativity • Culture
+</p>
+
+<a class="btn" href="#social">
+Connect With Me
+</a>
+
 </div>
+
 </header>
+
 <section id="about">
+
 <div class="card">
+
 <h2>About</h2>
-<p style="margin-top:15px">Welcome to the official home of Socialite_Culture. Follow for creative content, lifestyle, entertainment and culture.</p>
+
+<br>
+
+<p>
+Welcome to the official website of Socialite_Culture.
+Follow for amazing lifestyle, entertainment and creative content.
+</p>
+
 </div>
+
 </section>
-<section id="youtube">
-    <h2>🎥 YouTube Channel</h2>
-    <p style="margin:15px 0;">
-        Visit my official YouTube channel for the latest videos.
-    </p>
-    <a class="btn"
-       href="https://www.youtube.com/@socialite_culture"
-       target="_blank">
-       ▶ Visit My YouTube Channel
-    </a>
-</section>
+
 <section id="social">
-<h2>Follow Me</h2>
+
+<h2>Follow Socialite_Culture</h2>
+
 <div class="social">
-<a href="https://instagram.com/socialite_culture" target="_blank">Instagram</a>
-<a href="https://www.youtube.com/@socialite_culture" target="_blank">YouTube<
-<a href="https://tiktok.com/@socialite_culture" target="_blank">TikTok</a>
+
+<a href="https://instagram.com/socialite_culture" target="_blank">
+📷 Instagram
+</a>
+
+<a href="https://www.youtube.com/@socialite_culture" target="_blank">
+▶️ YouTube
+</a>
+
+<a href="https://tiktok.com/@socialite_culture" target="_blank">
+🎵 TikTok
+</a>
+
 </div>
+
 </section>
-<footer>© 2026 Socialite_Culture</footer>
-</body></html>
+
+<footer>
+
+© 2026 Socialite_Culture
+
+</footer>
+
+</body>
+    </html>r
